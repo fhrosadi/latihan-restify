@@ -1,0 +1,30 @@
+{
+  "name": "basic-restify",
+  "version": "1.0.0",
+  "description": "Basic Restify Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www.js"
+  },
+  "keywords": [
+    "Restify",
+    "Server",
+    "NodeJS"
+  ],
+  "author": "12Be Developer",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "module-alias": "^2.2.2",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "_moduleAliases": {
+    "@core": "./src/core",
+    "@modules": "./src/modules",
+    "@userRoutes": "./src/modules/users/infra/routes"
+  }
+}
