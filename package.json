@@ -10,13 +10,15 @@
   "keywords": [
     "Restify",
     "Server",
-    "NodeJS"
+    "NodeJS",
+    "Mongodb"
   ],
-  "author": "12Be Developer",
+  "author": "Farhan HR",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "module-alias": "^2.2.2",
+    "mongodb": "^4.4.1",
     "restify": "^8.5.1"
   },
   "devDependencies": {
